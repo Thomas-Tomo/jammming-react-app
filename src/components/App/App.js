@@ -13,18 +13,7 @@ function App() {
     album: "example track album 1",
     id: 1,
   },
-  {
-    name: "example track name 2",
-    artist: "example track artist 2",
-    album: "example track album 2",
-    id: 2,
-  },
-  {
-    name: "example track name 3",
-    artist: "example track artist 3",
-    album: "example track album 3",
-    id: 3,
-  }])
+  ])
 
   const [playlistName, setPlaylistName] = useState("Example Playlist Name");
 
@@ -34,12 +23,6 @@ function App() {
       artist: "example playlist artist 1",
       album: "example playlist album 1",
       id: 1,
-    },
-    {
-      name: "example playlist name 2",
-      artist: "example playlist artist 2",
-      album: "example playlist album 2",
-      id: 2,
     },
   ])
 
