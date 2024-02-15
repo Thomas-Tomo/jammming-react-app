@@ -1,6 +1,6 @@
 let accessToken;
 const clientID = "e021a3d5061e458aa3a8741ab994ec44"
-const redirectUrl = "http://localhost:3000";
+const redirectUrl = "https://aesthetic-eclair-21a036.netlify.app";
 
 const Spotify = {
     getAccessToken() {
